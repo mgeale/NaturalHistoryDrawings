@@ -6,14 +6,16 @@
     <script src="//code.angularjs.org/1.6.3/angular.js"></script>
     <script src="app/app.modules.js"></script>
 </head>
-<body>
-    <div></div>
+<body class="strips">
     <div ng-controller="drawings">
         <ul>
-          <li ng-repeat="drawing in content" class="col drawing-item">
+          <li ng-repeat="drawing in content" class="col">
 
             <figure>
-              <a href="{{ drawing.highreslink }}" target="_blank"><img src="{{ drawing.thumbnaillink }}"></a>
+              <a href="{{ drawing.highreslink }}" target="_blank">
+                <img src="{{ drawing.thumbnaillink }}">
+                <!-- <p class="drawing-caption">{{ drawing.caption }}</p> -->
+              </a>
             </figure>
           </li>
         </ul>
