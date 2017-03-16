@@ -9,16 +9,19 @@
 <body class="strips">
     <div ng-controller="drawings">
         <ul>
-          <li ng-repeat="drawing in content" class="col">
-
-            <figure>
-              <a href="{{ drawing.highreslink }}" target="_blank">
-                <img src="{{ drawing.thumbnaillink }}">
-                <!-- <p class="drawing-caption">{{ drawing.caption }}</p> -->
-              </a>
+          <li ng-repeat="img in imgs" class="col">
+            <figure ng-click="photoClick()">
+              <img src="{{ img.thumbnaillink }}">
+              <!-- <p class="drawing-caption">{{ drawing.caption }}</p> -->
             </figure>
           </li>
         </ul>
+        <div class="lightbox {{lClass}}">
+          <figure>
+            <img id="lightbox-img" src="images/empty.svg">
+          </figure>
+          <button ng-click="toggleClick()">Close</button>
+        </div>
     </div>
 </body>
 </html>
