@@ -20,9 +20,15 @@ app.controller('drawings', function($scope, $http) {
     }
   }
 
-  $scope.photoClick = function(event) {
-    console.log(this.img.highreslink);
+  $scope.photoClick = function() {
+    $scope.lightbox = {
+      img: this.img.highreslink,
+      caption: this.img.caption
+    }
     toggleClass();
+    var delay = setTimeout(function() {
+      echo.init();
+    }, 0);
   }
 
   $scope.toggleClick = function() {

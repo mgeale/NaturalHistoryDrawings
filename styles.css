@@ -38,9 +38,14 @@ ul {
   display: block;
 }
 
-.lightbox.img {
+.lightbox img {
   display: block;
   margin: auto;
   max-width: 100%;
   max-height: 80vh;
+}
+
+.lightbox figcaption {
+  color: #fff;
+  text-align: center;
 }

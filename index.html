@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="styles.css">
     <script src="//code.angularjs.org/1.6.3/angular.js"></script>
     <script src="app/app.modules.js"></script>
+    <script src="libraries/echo.min.js"></script>
 </head>
 <body class="strips">
     <div ng-controller="drawings">
@@ -18,7 +19,8 @@
         </ul>
         <div class="lightbox {{lClass}}">
           <figure>
-            <img id="lightbox-img" src="images/empty.svg">
+            <img id="lightbox-img" src="images/empty.svg" data-echo="{{lightbox.img}}">
+            <figcaption>{{ lightbox.caption }}</figcaption>
           </figure>
           <button ng-click="toggleClick()">Close</button>
         </div>
