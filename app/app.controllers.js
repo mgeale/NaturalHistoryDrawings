@@ -6,7 +6,9 @@ app.controller('imageController', function($scope, $http, $location) {
 
   var filename;
 
-  if ($location.$$path == '/george-raper') {
+  if ($location.$$path == '/lambert') {
+    filename = 'data/LambertDrawings.data.json';
+  } else if ($location.$$path == '/george-raper') {
     filename = 'data/GeorgeRaper.data.json';
   } else if ($location.$$path == '/robert-anderson-seton') {
     filename = 'data/RobertAndersonSeton.data.json';
@@ -45,7 +47,7 @@ app.controller('imageController', function($scope, $http, $location) {
 
   $scope.toggleClick = function() {
     toggleClass();
-    lightboxImg.src = 'images/empty.svg';
+    lightboxImg.src = 'imgs/empty.svg';
   }
 
 });

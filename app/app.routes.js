@@ -2,8 +2,12 @@ app.config(['$routeProvider', function($routeProvider) {
 
   $routeProvider.
     when('/', {
-      templateUrl: 'app/nav.html',
+      templateUrl: 'app/landing.html',
       controller: 'mainController'
+    }).
+    when('/lambert', {
+      templateUrl: 'app/body.html',
+      controller: 'imageController'
     }).
     when('/george-raper', {
       templateUrl: 'app/body.html',
