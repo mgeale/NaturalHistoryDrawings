@@ -1,6 +1,20 @@
-app.controller('mainController', function($scope, $http) {
+app.controller('mainController', function($scope) {
 
-  $http.get('data/SydneyBirdPainter.data.json')
+});
+
+app.controller('imageController', function($scope, $http, $location) {
+
+  var filename;
+
+  if ($location.$$path == '/george-raper') {
+    filename = 'data/GeorgeRaper.data.json';
+  } else if ($location.$$path == '/robert-anderson-seton') {
+    filename = 'data/RobertAndersonSeton.data.json';
+  } else if ($location.$$path == '/sydney-bird-painter') {
+    filename = 'data/SydneyBirdPainter.data.json';
+  };
+
+  $http.get(filename)
   .then(function(response) {
     $scope.imgs = response.data;
   });
