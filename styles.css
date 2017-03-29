@@ -1,3 +1,7 @@
+.col {
+  height: 180px;
+}
+
 .stripes {
   background: repeating-linear-gradient(
     90deg,

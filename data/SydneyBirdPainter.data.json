@@ -51,45 +51,6 @@
     "highreslink": "http://acms.sl.nsw.gov.au/_DAMx/image/19/144/a805004h.jpg",
     "caption": ""
 }, {
-    "itemid": 18778,
-    "title": "Collection 25: Collection of Australian bird illustrations, ca. 1792",
-    "creator": "Sydney Bird Painter",
-    "collectionitemlink": "http://acms.sl.nsw.gov.au/item/itemDetailPaged.aspx?itemID=18778",
-    "digitalitemlink": "http://acms.sl.nsw.gov.au/album/albumView.aspx?acmsID=18778&itemID=852930",
-    "albumnumber": 852930,
-    "transcriptlink": "",
-    "dateofwork": "1788-1795",
-    "digitalordernumber": "a1763001",
-    "thumbnaillink": "http://acms.sl.nsw.gov.au/_DAMt/image/10/149/a1763001t.jpg",
-    "highreslink": "http://acms.sl.nsw.gov.au/_DAMx/image/10/149/a1763001h.jpg",
-    "caption": "Item 01: [Masked lapwing], ca 1792"
-}, {
-    "itemid": 18778,
-    "title": "Collection 25: Collection of Australian bird illustrations, ca. 1792",
-    "creator": "Sydney Bird Painter",
-    "collectionitemlink": "http://acms.sl.nsw.gov.au/item/itemDetailPaged.aspx?itemID=18778",
-    "digitalitemlink": "http://acms.sl.nsw.gov.au/album/albumView.aspx?acmsID=18778&itemID=852930",
-    "albumnumber": 852930,
-    "transcriptlink": "",
-    "dateofwork": "1788-1795",
-    "digitalordernumber": "a1763002",
-    "thumbnaillink": "http://acms.sl.nsw.gov.au/_DAMt/image/10/149/a1763002t.jpg",
-    "highreslink": "http://acms.sl.nsw.gov.au/_DAMx/image/10/149/a1763002h.jpg",
-    "caption": "Item 02: [Maned or Wood] Duck [&] Drake, ca 1792"
-}, {
-    "itemid": 18778,
-    "title": "Collection 25: Collection of Australian bird illustrations, ca. 1792",
-    "creator": "Sydney Bird Painter",
-    "collectionitemlink": "http://acms.sl.nsw.gov.au/item/itemDetailPaged.aspx?itemID=18778",
-    "digitalitemlink": "http://acms.sl.nsw.gov.au/album/albumView.aspx?acmsID=18778&itemID=852930",
-    "albumnumber": 852930,
-    "transcriptlink": "",
-    "dateofwork": "1788-1795",
-    "digitalordernumber": "a1763003",
-    "thumbnaillink": "http://acms.sl.nsw.gov.au/_DAMt/image/10/149/a1763003t.jpg",
-    "highreslink": "http://acms.sl.nsw.gov.au/_DAMx/image/10/149/a1763003h.jpg",
-    "caption": "Item 03: A Young Mount Pitt bird - natural size [Petrel], ca 1792"
-}, {
     "itemid": 440247,
     "title": "Collection 26: Drawings of birds chiefly from Australia, 1791-1792",
     "creator": "Sydney Bird Painter",
@@ -1389,4 +1350,43 @@
     "thumbnaillink": "http://acms.sl.nsw.gov.au/_DAMt/image/19/144/a805100t.jpg",
     "highreslink": "http://acms.sl.nsw.gov.au/_DAMx/image/19/144/a805100h.jpg",
     "caption": "f.101  Red-Tailed Tropic Bird  [Phaethjon rubricauda]"
+}, {
+    "itemid": 18778,
+    "title": "Collection 25: Collection of Australian bird illustrations, ca. 1792",
+    "creator": "Sydney Bird Painter",
+    "collectionitemlink": "http://acms.sl.nsw.gov.au/item/itemDetailPaged.aspx?itemID=18778",
+    "digitalitemlink": "http://acms.sl.nsw.gov.au/album/albumView.aspx?acmsID=18778&itemID=852930",
+    "albumnumber": 852930,
+    "transcriptlink": "",
+    "dateofwork": "1788-1795",
+    "digitalordernumber": "a1763001",
+    "thumbnaillink": "http://acms.sl.nsw.gov.au/_DAMt/image/10/149/a1763001t.jpg",
+    "highreslink": "http://acms.sl.nsw.gov.au/_DAMx/image/10/149/a1763001h.jpg",
+    "caption": "Item 01: [Masked lapwing], ca 1792"
+}, {
+    "itemid": 18778,
+    "title": "Collection 25: Collection of Australian bird illustrations, ca. 1792",
+    "creator": "Sydney Bird Painter",
+    "collectionitemlink": "http://acms.sl.nsw.gov.au/item/itemDetailPaged.aspx?itemID=18778",
+    "digitalitemlink": "http://acms.sl.nsw.gov.au/album/albumView.aspx?acmsID=18778&itemID=852930",
+    "albumnumber": 852930,
+    "transcriptlink": "",
+    "dateofwork": "1788-1795",
+    "digitalordernumber": "a1763002",
+    "thumbnaillink": "http://acms.sl.nsw.gov.au/_DAMt/image/10/149/a1763002t.jpg",
+    "highreslink": "http://acms.sl.nsw.gov.au/_DAMx/image/10/149/a1763002h.jpg",
+    "caption": "Item 02: [Maned or Wood] Duck [&] Drake, ca 1792"
+}, {
+    "itemid": 18778,
+    "title": "Collection 25: Collection of Australian bird illustrations, ca. 1792",
+    "creator": "Sydney Bird Painter",
+    "collectionitemlink": "http://acms.sl.nsw.gov.au/item/itemDetailPaged.aspx?itemID=18778",
+    "digitalitemlink": "http://acms.sl.nsw.gov.au/album/albumView.aspx?acmsID=18778&itemID=852930",
+    "albumnumber": 852930,
+    "transcriptlink": "",
+    "dateofwork": "1788-1795",
+    "digitalordernumber": "a1763003",
+    "thumbnaillink": "http://acms.sl.nsw.gov.au/_DAMt/image/10/149/a1763003t.jpg",
+    "highreslink": "http://acms.sl.nsw.gov.au/_DAMx/image/10/149/a1763003h.jpg",
+    "caption": "Item 03: A Young Mount Pitt bird - natural size [Petrel], ca 1792"
 }]

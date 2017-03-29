@@ -1,6 +1,6 @@
 <div class="container">
   <ul class="list-unstyled list-inline row">
-    <li ng-repeat="img in imgs" class="col-xs-12 col-sm-8 col-md-4 col-lg-2">
+    <li ng-repeat="img in imgs" class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col">
       <figure ng-click="photoClick()" class="thumbnail">
         <img src="{{ img.thumbnaillink }}" class="img-responsive">
       </figure>
@@ -8,9 +8,9 @@
   </ul>
 </div>
 <div class="lightbox {{lClass}}">
+  <button ng-click="toggleClick()">Close</button>
   <figure>
     <img id="lightbox-img" src="imgs/empty.svg" data-echo ="{{lightbox.img}}">
     <figcaption>{{ lightbox.caption }}</figcaption>
   </figure>
-  <button ng-click="toggleClick()">Close</button>
 </div>
