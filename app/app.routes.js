@@ -11,15 +11,15 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
       templateUrl: 'app/body.html',
       controller: 'imageController'
     }).
-    when('/george-raper', {
+    when('/raper', {
       templateUrl: 'app/body.html',
       controller: 'imageController'
     }).
-    when('/robert-anderson-seton', {
+    when('/seton', {
       templateUrl: 'app/body.html',
       controller: 'imageController'
     }).
-    when('/sydney-bird-painter', {
+    when('/painter', {
       templateUrl: 'app/body.html',
       controller: 'imageController'
     });

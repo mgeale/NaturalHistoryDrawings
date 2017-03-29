@@ -8,11 +8,11 @@ app.controller('imageController', function($scope, $http, $location) {
 
   if ($location.$$path == '/lambert') {
     filename = 'data/LambertDrawings.data.json';
-  } else if ($location.$$path == '/george-raper') {
+  } else if ($location.$$path == '/raper') {
     filename = 'data/GeorgeRaper.data.json';
-  } else if ($location.$$path == '/robert-anderson-seton') {
+  } else if ($location.$$path == '/seton') {
     filename = 'data/RobertAndersonSeton.data.json';
-  } else if ($location.$$path == '/sydney-bird-painter') {
+  } else if ($location.$$path == '/painter') {
     filename = 'data/SydneyBirdPainter.data.json';
   };
 
