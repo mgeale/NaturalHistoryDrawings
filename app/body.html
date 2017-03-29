@@ -1,10 +1,12 @@
-<ul>
-  <li ng-repeat="img in imgs" class="col">
-    <figure ng-click="photoClick()">
-      <img src="{{ img.thumbnaillink }}">
-    </figure>
-  </li>
-</ul>
+<div class="container">
+  <ul class="list-unstyled list-inline row">
+    <li ng-repeat="img in imgs" class="col-xs-12 col-sm-8 col-md-4 col-lg-2">
+      <figure ng-click="photoClick()" class="thumbnail">
+        <img src="{{ img.thumbnaillink }}" class="img-responsive">
+      </figure>
+    </li>
+  </ul>
+</div>
 <div class="lightbox {{lClass}}">
   <figure>
     <img id="lightbox-img" src="imgs/empty.svg" data-echo ="{{lightbox.img}}">
