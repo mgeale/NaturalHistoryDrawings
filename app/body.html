@@ -1,11 +1,11 @@
-<div class="">
-  <ul class="">
-    <li ng-repeat="img in imgs" class="col">
+<div class="container" layout="row" flex>
+  <md-grid-list md-cols="6" md-gutter="80em" md-row-height="4:3">
+    <md-grid-tile ng-repeat="img in imgs">
       <figure ng-click="photoClick()">
         <img src="{{ img.thumbnaillink }}">
       </figure>
-    </li>
-  </ul>
+    </md-grid-tile>
+  </md-grid-list>
 </div>
 <div class="lightbox {{lClass}}">
   <button ng-click="toggleClick()">Close</button>

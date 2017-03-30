@@ -1,0 +1,8 @@
+.col {
+  height: 180px;
+}
+
+.thumbnail {
+  background-color: transparent !important;
+  border: none !important;
+}
