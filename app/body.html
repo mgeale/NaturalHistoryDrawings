@@ -1,16 +1,18 @@
-<div class="container" layout="row" flex>
-  <md-grid-list md-cols="6" md-gutter="80em" md-row-height="1:3">
-    <md-grid-tile ng-repeat="img in imgs">
-      <figure ng-click="photoClick()">
-        <img src="{{ img.thumbnaillink }}">
-      </figure>
-    </md-grid-tile>
-  </md-grid-list>
-</div>
-<div class="lightbox {{lClass}}">
-  <button ng-click="toggleClick()">Close</button>
-  <figure>
-    <img id="lightbox-img" src="imgs/empty.svg" data-echo ="{{lightbox.img}}">
-    <figcaption>{{ lightbox.caption }}</figcaption>
-  </figure>
-</div>
+<md-content layout-padding>
+  <div layout="row">
+    <md-grid-list md-cols="6" md-gutter="80em" md-row-height="1:3">
+      <md-grid-tile ng-repeat="img in imgs">
+        <figure ng-click="photoClick()">
+          <img src="{{ img.thumbnaillink }}">
+        </figure>
+      </md-grid-tile>
+    </md-grid-list>
+  </div>
+  <div class="lightbox {{lClass}}">
+    <button ng-click="toggleClick()">Close</button>
+    <figure>
+      <img id="lightbox-img" src="imgs/empty.svg" data-echo ="{{lightbox.img}}">
+      <figcaption>{{ lightbox.caption }}</figcaption>
+    </figure>
+  </div>
+</md-content>
