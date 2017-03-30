@@ -1,7 +1,5 @@
 app.controller('mainController', function($scope) {
 
-  $scope.currentNavItem = 'home';
-  
 });
 
 app.controller('imageController', function($scope, $http, $location) {
@@ -50,6 +48,7 @@ app.controller('imageController', function($scope, $http, $location) {
   $scope.toggleClick = function() {
     toggleClass();
     lightboxImg.src = 'imgs/empty.svg';
+    console.log(lightboxImg.src);
   }
 
 });
