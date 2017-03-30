@@ -1,5 +1,7 @@
 app.controller('mainController', function($scope) {
 
+  $scope.currentNavItem = 'home';
+  
 });
 
 app.controller('imageController', function($scope, $http, $location) {

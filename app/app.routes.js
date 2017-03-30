@@ -4,8 +4,7 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
 
   $routeProvider.
     when('/', {
-      templateUrl: 'app/landing.html',
-      controller: 'mainController'
+      templateUrl: 'app/landing.html'
     }).
     when('/lambert', {
       templateUrl: 'app/body.html',
