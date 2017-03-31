@@ -1,31 +1,34 @@
 <!doctype html>
 <html lang="en" ng-app="app">
+
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link type="text/css" rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.min.css"  media="screen,projection"/>
-    <link rel="stylesheet" href="styles/lightbox.css">
-    <link rel="stylesheet" href="styles/main.css">
-    <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link type="text/css" rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.min.css" media="screen,projection" />
+  <link rel="stylesheet" href="styles/lightbox.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <base href="/">
 </head>
+
 <body>
 
-    <div ng-include="'app/nav.html'" ng-controller="mainController"></div>
+  <div ng-include="'app/nav.html'" ng-controller="mainController"></div>
 
-    <div ng-view></div>
+  <div ng-view></div>
 
-    <!-- angular -->
-    <script src="node_modules/angular/angular.min.js"></script>
-    <script src="node_modules/angular-route/angular-route.min.js"></script>
-    <!-- materialize-css -->
-    <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="node_modules/materialize-css/dist/js/materialize.min.js"></script>
-    <!-- app js -->
-    <script src="app/app.modules.js"></script>
-    <script src="app/app.routes.js"></script>
-    <script src="app/app.controllers.js"></script>
-    <!-- echo lazy loader -->
-    <script src="node_modules/echo-js/dist/echo.min.js"></script>
+  <!-- angular -->
+  <script src="node_modules/angular/angular.min.js"></script>
+  <script src="node_modules/angular-route/angular-route.min.js"></script>
+  <!-- materialize-css -->
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="node_modules/materialize-css/dist/js/materialize.min.js"></script>
+  <!-- app js -->
+  <script src="app/app.modules.js"></script>
+  <script src="app/app.routes.js"></script>
+  <script src="app/app.controllers.js"></script>
+  <!-- echo lazy loader -->
+  <script src="node_modules/echo-js/dist/echo.min.js"></script>
 
 </body>
+
 </html>
