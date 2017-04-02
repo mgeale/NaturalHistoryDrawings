@@ -1,9 +1,7 @@
 <div class="container">
   <ul class="row">
-    <li ng-repeat="img in imgs" class="col s6 m4 l3">
-      <figure ng-click="photoClick()">
-        <img  class="z-depth-2" src="{{ img.thumbnaillink }}">
-      </figure>
+    <li ng-repeat="img in imgs" class="col s6 m4 l3 thumbnail">
+      <img ng-click="photoClick()" class="z-depth-2" src="{{ img.thumbnaillink }}">
     </li>
   </ul>
 </div>

@@ -1,3 +1,8 @@
-li .col {
+.thumbnail {
   height: 185px;
+}
+
+li img {
+  display: block;
+  margin: auto auto;
 }
