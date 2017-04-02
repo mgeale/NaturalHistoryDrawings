@@ -1,13 +1,14 @@
 <div class="container">
   <ul class="row">
     <li ng-repeat="img in imgs" class="col s6 m4 l3 thumbnail">
-      <img ng-click="photoClick()" class="z-depth-2" src="{{ img.thumbnaillink }}">
+      <img class="z-depth-2" src="{{img.thumbnaillink}}">
     </li>
   </ul>
 </div>
 <div class="lightbox {{lClass}}">
   <button ng-click="toggleClick()">Close</button>
   <figure>
+    <div ng-include="'app/preloader.html'"></div>
     <img id="lightbox-img" src="imgs/empty.svg" data-echo ="{{lightbox.img}}">
     <figcaption>{{ lightbox.caption }}</figcaption>
   </figure>
