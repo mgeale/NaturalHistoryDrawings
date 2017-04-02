@@ -48,7 +48,10 @@ app.controller('imageController', function($scope, $http, $location) {
   $scope.toggleClick = function() {
     toggleClass();
     lightboxImg.src = 'imgs/empty.svg';
-    console.log(lightboxImg.src);
   }
+
+  $scope.imagesLoaded = function imageLoaded() {
+    console.log("images have loaded");
+  };
 
 });
