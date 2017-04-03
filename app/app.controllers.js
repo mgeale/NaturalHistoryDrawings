@@ -50,12 +50,4 @@ app.controller('imageController', function($scope, $http, $location, $timeout) {
     lightboxImg.src = 'imgs/empty.svg';
   }
 
-  $scope.hideall = true;
-  $scope.hideprog = false;
-
-  $timeout(function() {
-    $scope.hideall = false;
-    $scope.hideprog = true;
-  }, 1500);
-
 });
