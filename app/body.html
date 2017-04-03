@@ -1,10 +1,10 @@
-<!-- <div class="progress">
-  <div class="indeterminate"></div>
-</div> -->
 <div class="container">
   <ul class="row">
-    <li ng-repeat="img in imgs" class="col s6 m4 l3 thumbnail">
-      <img ng-click="photoClick()" class="z-depth-2" ng-src="{{img.thumbnaillink}}" imageonload>
+    <div class="progress" ng-hide="hideprog">
+      <div class="indeterminate"></div>
+    </div>
+    <li ng-repeat="img in imgs" class="col s6 m4 l3 thumbnail" ng-hide="hideall">
+      <img ng-click="photoClick()" class="z-depth-2" ng-src="{{img.thumbnaillink}}">
     </li>
   </ul>
 </div>
@@ -12,7 +12,7 @@
   <button ng-click="toggleClick()">Close</button>
   <figure>
     <!-- <div ng-include="'app/preloader.html'"></div> -->
-    <img id="lightbox-img" src="imgs/empty.svg" data-echo ="{{lightbox.img}}">
+    <img id="lightbox-img" src="imgs/empty.svg" data-echo="{{lightbox.img}}">
     <figcaption>{{ lightbox.caption }}</figcaption>
   </figure>
 </div>

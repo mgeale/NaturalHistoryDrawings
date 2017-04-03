@@ -2,7 +2,7 @@ app.controller('mainController', function($scope) {
 
 });
 
-app.controller('imageController', function($scope, $http, $location) {
+app.controller('imageController', function($scope, $http, $location, $timeout) {
 
   var filename;
 
@@ -50,8 +50,12 @@ app.controller('imageController', function($scope, $http, $location) {
     lightboxImg.src = 'imgs/empty.svg';
   }
 
-  $scope.imagesLoaded = function imageLoaded() {
-    console.log("images have loaded");
-  };
+  $scope.hideall = true;
+  $scope.hideprog = false;
+
+  $timeout(function() {
+    $scope.hideall = false;
+    $scope.hideprog = true;
+  }, 1500);
 
 });
